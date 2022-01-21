@@ -1,4 +1,3 @@
-from unittest import runner
 from discord_webhook import DiscordWebhook, DiscordEmbed
 import random
 import time
@@ -14,8 +13,6 @@ month_num = {
     6: "июня", 7: "июля", 8: "августа", 9: 'сентября', 10: 'октября', 11: "ноября", 12: "декабря"
 }
 weathers = ["Ясная", "Ясная", "Облачная", "Дождливая", "Облачная", "Дождь с грозой", "Ясная"]
-
-runner = True
 
 
 def run_change(guild_id, count_bool):
